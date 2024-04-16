@@ -30,4 +30,3 @@ function IndexPage() {
   
   export default IndexPage;
 
-  // id="Experience" id="Open" id="contact" id="About"

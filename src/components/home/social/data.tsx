@@ -5,9 +5,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 // export const socialList = {
-//     git : "https://github.com/RahulPrakash11",
-//     linkedIn : "https://www.linkedin.com/in/rahul-prakash-81b30821",
-//     twitter : "https://twitter.com/rahulprakash111/",
+//     git : "https://github.com/SimonZargarian",
+//     linkedIn : "https://www.linkedin.com/in/simon-zargarian-754465120/",
+//     twitter : "https://twitter.com/Simon3424817917/",
 //     instagram : "https://github.com/RahulPrakash11",
 // }
 
@@ -15,17 +15,17 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 export const socialList = [
     {
         id: 1,
-        link: "https://github.com/RahulPrakash11",
+        link: "https://github.com/SimonZargarian/",
         icon: GitHubIcon
     },
     {
         id: 2,
-        link: "https://www.linkedin.com/in/rahul-prakash-81b30821",
+        link: "https://www.linkedin.com/in/simon-zargarian-754465120/",
         icon: LinkedInIcon
     },
     {
         id: 3,
-        link: "https://twitter.com/rahulprakash111/",
+        link: "https://twitter.com/Simon3424817917/",
         icon: TwitterIcon
     },
     // {
