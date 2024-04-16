@@ -1,41 +1,46 @@
 
 import TypeScript from '../../../images/typescript.svg';
-import Django from '../../../images/django.svg';
+import Kotlin from '../../../images/kotlin.png';
 import Mongo from '../../../images/mongodb.svg';
 import Python from '../../../images/python.svg';
-import Flask from '../../../images/flask.svg';
+import Spring from '../../../images/spring.png';
 import AWS from '../../../images/aws.svg';
-import DynamoDb from '../../../images/dynamodb.svg';
+import MySql from '../../../images/my.webp';
 import React from '../../../images/react.svg';
 import Docker from '../../../images/docker.svg';
 import Google from '../../../images/googlecloud.svg';
 import Java from '../../../images/java.png';
+import TensorFlow from '../../../images/tensorflow.png';
+
+
 
 
 export const skillList = [
     {
+       
         key: 1,
+        skill: "Java",
+        logo: Java,
+        link: "https://www.java.com/"
+        
+    },
+    {
+        key: 2,
         skill: "Python",
         logo: Python,
         link: "https://www.python.org/"
     },
     {
-        key: 2,
-        skill: "Java",
-        logo: Java,
-        link: "https://www.java.com/"
-    },
-    {
         key: 3,
-        skill: "Django",
-        logo: Django,
-        link: "https://docs.djangoproject.com/en/4.1/"
+        skill: "Kotlin",
+        logo: Kotlin,
+        link: "https://kotlinlang.org/"
     },
     {
         key: 4,
-        skill: "Flask",
-        logo: Flask,
-        link: "https://flask.palletsprojects.com/en/2.2.x/"
+        skill: "Spring",
+        logo: Spring,
+        link: "https://spring.io/"
     },
     {
         key: 5,
@@ -45,9 +50,9 @@ export const skillList = [
     },
     {
         key: 6,
-        skill: "DynamoDb",
-        logo: DynamoDb,
-        link: "https://aws.amazon.com/dynamodb/"
+        skill: "MySql",
+        logo: MySql,
+        link: "https://www.mysql.com/"
     },
     {
         key: 7,
@@ -78,5 +83,12 @@ export const skillList = [
         skill: "GCP",
         logo: Google,
         link: "https://cloud.google.com/"
+    },
+    {
+        key: 12,
+        skill: "TensorFlow",
+        logo: TensorFlow,
+        link: "https://www.tensorflow.org/"
     }
+    
 ]

@@ -5,6 +5,8 @@ import ThemeProvider from '@mui/material/styles/ThemeProvider';
 import Typography from '@mui/material/Typography';
 import theme from '../../../hooks/themes';
 import { email } from "../../../constants/data";
+import { resumeLink } from '../../../constants/data';
+
 
 
 
@@ -23,8 +25,8 @@ const Contact = () => {
                 Get In Touch
                 </Typography>
                 <Typography variant="body1" component="p" marginBottom={2} boxSizing={"inherit"}>
-                  I’m currently looking for any new opportunities as a web backend developer.
-                  Whether you have a question or just want to say hi, I’ll get back to you!
+                  I’m currently looking for any new opportunities as a fullstack / AI automation developer.
+                  If you have a any question or just want to say hi, I’ll get back to you!
                 </Typography>
                 <Box sx={{ justifyContent: "center", marginTop: 5, color: "#51bda3",}}>
                   <Button variant="outlined" href={`mailto:${email}`}
@@ -37,6 +39,17 @@ const Contact = () => {
                     }}
                   >
                     Say Hello
+                  </Button>
+                  <Button variant="outlined" href={resumeLink}
+                    // onClick={(e) => {
+                    //   window.location.href = "mailto:rahulpra@gmail.com";
+                    //   e.preventDefault();  sx={{ fontSize: {xs: "13px", sm: "14px", md: "16px", lg: "18px"}, color: "#51bda3", letterSpacing: 1.5, marginBottom: "20px", fontWeight: 500 }}
+                    // }}
+                    sx={{ 
+                      marginLeft: "20px", width: "8rem", height: "4rem", color:"inherit", borderColor: "inherit", borderWidth: 2, '&:hover': { borderColor: "inherit", borderWidth: 2, backgroundColor:"ButtonHighlight" }
+                    }}
+                  >
+                    Resume
                   </Button>
                 </Box>
             </Grid >

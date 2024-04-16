@@ -56,7 +56,7 @@ function ProjectContent({...project}:Experience) {
             paddingY: {xs: "40px", md: "30px"},
             }}
         >
-            <Typography component="p" sx={{fontFamily: "monospace", fontSize: "1.1rem", color: "#51bda3", marginY: "10px"}}> Featured Project </Typography>
+            <Typography component="p" sx={{fontFamily: "monospace", fontSize: "1.1rem", color: "#51bda3", marginY: "10px"}}> Featured Experience </Typography>
             
             <Grid item container sx={{flexDirection: {xs: "row", md: flexDir}}}>
                 <Typography variant="h5" component="h4" sx={{ marginBottom: "20px", maxWidth: { xs: "100%", md: "60%" }}}> 
